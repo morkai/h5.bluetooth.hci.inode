@@ -1,0 +1,25 @@
+{
+	"name": "h5.bluetooth.hci.inode",
+	"version": "0.0.0",
+	"description": "Bluetooth HCI Manufacturer Specific Data decoder for iNode devices in Node.js.",
+	"keywords": ["h5", "blueooth", "ble", "hci", "inode"],
+	"license": "MIT",
+	"homepage": "https://github.com/morkai/h5.bluetooth.hci.inode",
+	"author": {
+		"name": "Łukasz Walukiewicz",
+		"email": "lukasz@miracle.systems",
+		"url": "https://miracle.systems/p/h5.bluetooth.hci.inode"
+	},
+	"bugs": "https://github.com/morkai/h5.bluetooth.hci.inode/issues",
+	"repository": {
+		"type": "git",
+		"url":  "https://github.com/morkai/h5.bluetooth.hci.inode.git"
+	},
+	"engines": {
+    "node": ">=4.x.x"
+  },
+	"main": "./lib/index",
+  "peerDependencies": {
+    "h5.bluetooth.hci": "morkai/h5.bluetooth.hci#ba0a154"
+  }
+}
