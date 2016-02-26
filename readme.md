@@ -9,6 +9,10 @@ Extension to the [h5.bluetooth.hci](https://miracle.systems/p/h5.bluetooth.hci) 
   * [Node.js](https://nodejs.org/) >= v4
   * [iNode.pl](https://inode.pl/index/s_lang/en) Bluetooth Low Energy devices
 
+## Documentation
+
+  * [iNode Manufacturer Specific Data](https://goo.gl/mrYk5t)
+
 ## TODO
 
   * Tests
