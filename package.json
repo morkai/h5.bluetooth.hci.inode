@@ -19,7 +19,7 @@
     "node": ">=4.x.x"
   },
 	"main": "./lib/index",
-  "peerDependencies": {
+  "dependencies": {
     "h5.bluetooth.hci": "morkai/h5.bluetooth.hci"
   }
 }
