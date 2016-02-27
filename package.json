@@ -20,6 +20,6 @@
   },
 	"main": "./lib/index",
   "peerDependencies": {
-    "h5.bluetooth.hci": "morkai/h5.bluetooth.hci#ba0a154"
+    "h5.bluetooth.hci": "morkai/h5.bluetooth.hci"
   }
 }
