@@ -31,6 +31,19 @@ const hciPacket = btHci.decode(buffer);
 console.log(hciPacket);
 ```
 
+Decoding iNode Manufacturer Specific Data buffer:
+
+```js
+'use strict';
+
+const iNodeHci = require('h5.bluetooth.hci.inode');
+
+const buffer = new Buffer('929301b000001700a819e8180400f4bbce6e77a00b97d1b5', 'hex');
+const msd = iNodeHci.decodeMsd(buffer);
+
+console.log(msd);
+```
+
 Decoding iNode GSM data:
 
 ```js
